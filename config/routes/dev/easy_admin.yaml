@@ -1,0 +1,10 @@
+# config/packages/easy_admin.yaml
+
+#easy_admin:
+#  resource:
+#    - App\Entity\User
+#    - App\Entity\Post
+#    - App\Entity\Category
+#    - App\Entity\Tag
+
+

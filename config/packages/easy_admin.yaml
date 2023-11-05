@@ -1,6 +1,19 @@
 # config/packages/easy_admin.yaml
 
-easy_admin:
-  entities:
-    YourEntityName:
-      class: App\Entity\User
+#easy_admin:
+#  entities:
+#    User:
+#      class: App\Entity\User
+#    Post:
+#      class: App\Entity\Post
+#    Category:
+#      class: App\Entity\Category
+#    Tag:
+#      class: App\Entity\Category
+
+#easy_admin:
+#  resource:
+#    - App\Entity\User
+#    - App\Entity\Post
+#    - App\Entity\Category
+#    - App\Entity\Tag
