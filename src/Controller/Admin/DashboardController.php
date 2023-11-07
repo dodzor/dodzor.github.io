@@ -11,6 +11,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Router\AdminUrlGenerator;
 
 use App\Entity\Category;
 use App\Entity\Post;
+use App\Entity\Channel;
 
 class DashboardController extends AbstractDashboardController
 {
@@ -52,5 +53,6 @@ class DashboardController extends AbstractDashboardController
         // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
         yield MenuItem::linkToCrud('Categories', 'fas fa-map-marker-alt', Category::class);
         yield MenuItem::linkToCrud('Posts', 'fas fa-map-marker-alt', Post::class);
+        yield MenuItem::linkToCrud('Channels', 'fas fa-map-marker-alt', Channel::class);
     }
 }
